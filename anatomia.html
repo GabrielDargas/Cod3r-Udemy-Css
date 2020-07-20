@@ -5,7 +5,22 @@
     <meta charset="UTF-8">
     <title>Anatomia CSS</title>
     <style>
-        /* ... */
+        .selector {
+            color: blueviolet;
+            background-color: bisque;
+            font-size: 30px;
+            text-align: center; 
+            border: solid 5px navy;
+            font-family: helvetica, monospace;
+            width: calc(100% - 100px);
+        }
+
+        .selector:hover{
+            background-color: olive;
+        }
+        .selector::first-letter {
+            font-size: larger;
+        }
     </style>
 </head>
 
