@@ -6,7 +6,25 @@
     <title>CSS Selectors</title>
     <link rel="stylesheet" href="css/tag.css">
     <style>
-        /* ... */
+        #aninhado > div {
+            /*assim pega filho*/
+            color: yellowgreen;
+            background-color: tomato;
+        }
+        p + ul {
+            /*seleciona siblings adjacentes*/
+            color: turquoise;
+            background-color: tomato;
+        }
+        p ~ ul {
+            /*seleciona todos siblings*/
+            color: teal;
+            background-color: tomato;
+        }
+        span:nth-child(odd){
+            /*seleciona o filho da posiçao X*/
+            box-shadow: rgb(0, 0, 0);
+        }
     </style>
 </head>
 
