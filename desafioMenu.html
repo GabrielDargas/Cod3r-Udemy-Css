@@ -7,7 +7,79 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
-        /* ... */
+        body{
+            background-color: #cccccc;
+            margin: 0px;
+            font-family: 'Oswald', sans-serif;
+        }
+        header .cabecalho{
+            margin: 0px;
+        }
+        .cabecalho{
+            background-color: #333333;
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+            height: 80px;
+            border-bottom: solid 5px #6164fd;
+            align-items: center;
+        }
+        .logo a img{
+            width: 250px;
+            height: 50px;
+            display: flexbox;
+            padding-top: 15px;
+            padding-left: 15px;
+        }
+        .logo{
+            display: inline;
+            margin: 0px;
+        }
+       .menu{
+            display: inline;
+        }
+        .menu-toggle{
+            display: none;
+        }
+        @media (max-width: 600px){
+           .menu-toggle{
+               display: inline;
+           }
+        }
+        li{
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        li a{
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+            padding: 10px;
+        }
+        li a:hover{
+            background-color: #6164fd;
+            color: black;
+        }
+        ul{
+            display: inline;
+            margin: auto;
+            padding: auto;
+        }
+        .autenticacao{
+            display: inline;
+        }
+        .autenticacao a{
+            color: white;
+            font-size: 20px;
+            padding: 10px;
+            text-decoration: none;
+            float: right;
+            margin-top: 20px;
+        }
+        a.botao.destaque{
+            border-radius: 30px;
+            background-color: red;
+        }
     </style>
 </head>
 
